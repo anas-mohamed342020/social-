@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page</title>
+  <link rel="stylesheet" href="css/all.min.css    " />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="vh-100">
+    <nav class="navbar navbar-light bg-transparent">
+      <div class="container-fluid">
+        <div>
+          <i class="par fa-solid fa-note-sticky"></i>
+          <p class="par">Assignment 5</p>
+        </div>
+        <ul>
+          <a class="btn btn-outline-info"  href="profile.html">
+            <li><b>profile</b></li>
+          </a>
+        </ul>
+        <ul>
+          <a class="btn btn-outline-dark" onclick="logOut()" href="index.html">
+            <li><b>Logout</b></li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto mt-5 px-5 text-center shadow1 py-5 shadow-lg rounded">
+          <div>
+            <h1 class="color">Add Post</h1>
+            <input id="title" type="text" class="form-control my-3 bg-transparent input"
+              placeholder="Enter post title" />
+            <textarea id="description" class="form-control my-3 bg-transparent input"
+              placeholder="Enter content"></textarea>
+            <button id="add" class="btn btn-outline-info mx-0 my-3 me-4" onclick="collectDataAddPost()">
+              Add Post
+            </button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="bgcolor p-5">
+    <div class="container">
+      <div class="row" id="posts">
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="operations/operations.js"></script>
+  <script src="js/home.js"></script>
+</body>
+
+</html>

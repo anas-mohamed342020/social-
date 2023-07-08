@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="CSSsignin/bootstrap.min.css">
+    <link rel="stylesheet" href="CSSsignin/style.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body class="d-flex align-items-center">
+
+    <div class="container-fluid bgcolor ">
+        <div class="row justify-content-center   ">
+            <div class="page col-md-7 px-5 text-center shadow1 py-5 shadow-lg mt-5 rounded">
+                <h1 class="color">Assignment 5</h1>
+                
+                <input id="user" type="text" class="form-control my-3" placeholder="Enter your email , phone or userName">
+                <input id="password" type="password" class="form-control my-3" placeholder="Enter your password">
+                <p  class="text-danger" id="validation"></p>
+                <button onclick="collectDateSignin()" id="login" class="btn btn-outline-info w-100 my-3"> login </button>
+            <p class="color text-center">Don’t have an account? <a href="signUp.html">Sign Up</a></p>
+            <p class="color text-center" id="forget" onclick="sendCode()">Forget password</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

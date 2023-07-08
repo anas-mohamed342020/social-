@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="CSSsignup/bootstrap.min.css">
+    <link rel="stylesheet" href="CSSsignup/style.css">
+</head>
+
+<body class="d-flex align-items-center">
+
+    <div class="container-fluid bgcolor ">
+        <div class="row justify-content-center pb-5 ">
+            <div class="col-md-7 px-5 text-center shadow1 mt-5 py-5 rounded shadow-lg">
+                <h1 class="color">Assignment 5</h1>
+                <input id="name" type="text" class="form-control my-3" placeholder="Enter your name">
+                <input id="firstName" type="text" class="form-control my-3" placeholder="Enter your firstName">
+                <input id="lastName" type="text" class="form-control my-3" placeholder="Enter your lastName">
+                <input id="phone" type="text" class="form-control my-3" placeholder="Enter your phone">
+                <input id="email" type="email" class="form-control my-3" placeholder="Enter your email">
+                <input id="age" type="number" class="form-control my-3" placeholder="Enter your age">
+
+                <input id="password" type="password" class="form-control my-3" placeholder="Enter your password">
+                <input id="cPassword" type="password" class="form-control my-3" placeholder="confirm password">
+                <label for="gander" class="text-light">Enter your gander</label>
+                <select name="gander" id="gander">
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                </select>
+
+                <p class="text-danger" id="validation"></p>
+                <p class="text-success" id="validation2"></p>
+                <button onclick="collectDateSignup()" id="singUp" class="btn btn-outline-info w-100 my-3">Sign
+                    Up</button>
+                <p class="color  text-center">You have an account? <a href="index.html">Signin</a></p>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

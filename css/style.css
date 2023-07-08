@@ -1,0 +1,134 @@
+header {
+  background-image: url("../images/ravi-palwe-I3urDa6z2_4-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+}
+
+
+
+ul a {
+  text-decoration: none;
+  /* ffb6b9 - fae3d9 - bbded6 - 8ac6d1*/
+  color: #17a2b8;
+  transition: color 0.6s ease;
+  margin: 10px 10px 5px 5px;
+  text-decoration: none !important;
+}
+
+
+
+.logo {
+  height: 40;
+  width: 40;
+  margin-left: 40px;
+}
+
+.par {
+  display: inline;
+  color: #DDD;
+  margin: 15px;
+  size: 15px;
+  font-size: 40px;
+}
+
+.nav-img {
+  width: 40px;
+  height: 34px;
+  margin-top: -19px;
+}
+
+.color {
+  color: #17a2b8;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.input {
+  background-color: transparent !important;
+  color: #DDD !important;
+  border-color: #000 !important;
+}
+
+a {
+  text-decoration: none;
+  color: #17a2b8;
+}
+
+a:hover {
+  color: #17a2b8;
+  text-decoration: underline;
+}
+
+.img {
+  background-image: black;
+}
+
+.bgcolor {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.shadow1 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+::placeholder {
+  color: rgb(184, 189, 193) !important;
+}
+
+.description {
+  min-height: 150px;
+  max-height: 150px;
+}
+
+.icon {
+  border: #17a2b8 1px solid;
+  width: 15px;
+  height: 15px;
+}
+
+.description::-webkit-scrollbar {
+  width: 11px;
+}
+
+.description {
+  scrollbar-width: thin;
+  scrollbar-color: #ffb6b9 #17a2b8;
+}
+
+.description::-webkit-scrollbar-track {
+  background: #17a2b8;
+  border-radius: 20px;
+}
+
+.description::-webkit-scrollbar-thumb {
+  background-color: #cfd8dc;
+  border-radius: 6px;
+  border: 3px solid #cfd8dc;
+}
+
+.icon-hover {
+  transition: color 0.5s ease-in, background-color 0.5s ease-in;
+  cursor: pointer;
+}
+
+.icon-hover:hover {
+  background-color: #17a2b8;
+  color: #DDD;
+}
+
+#forget {
+  cursor: pointer;
+}
+
+#forget:hover {
+  text-decoration: underline;
+}
+

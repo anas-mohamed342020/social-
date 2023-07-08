@@ -1,0 +1,37 @@
+.bgcolor
+{
+  background-image: url("../images/amanda-jones-feLC4ZCxGqk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.color{
+    color: #17a2b8;
+}
+.btn:hover
+{
+    color: white;
+}
+input
+{
+    background-color:transparent !important;
+    color: #17a2b8 !important;
+}
+.shadow1
+{
+    background-color: #0009;
+}
+.container-fluid
+{
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: #17a2b8;
+}
+a:hover
+{
+    color: #17a2b8;
+    text-decoration: underline;
+}

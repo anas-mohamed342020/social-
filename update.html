@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page</title>
+  <link rel="stylesheet" href="css/all.min.css    " />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="vh-100">
+    <nav class="navbar navbar-light bg-transparent">
+      <div class="container-fluid">
+        <div>
+          <i class="par fa-solid fa-note-sticky"></i>
+          <p class="par" id="userName"></p>
+        </div>
+        <ul>
+          <a class="btn btn-outline-info" href="home.html">
+            <li><b>home</b></li>
+          </a>
+        </ul>
+        <ul>
+          <a class="btn btn-outline-danger" onclick="deleteUser()">
+            <li><b>delete profile</b></li>
+          </a>
+        </ul>
+        <ul>
+          <a class="btn btn-outline-dark" onclick="logOut()" href="index.html">
+            <li><b>Logout</b></li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto mt-5 px-5 text-center shadow1 py-5 shadow-lg rounded">
+          <div>
+            <h1 class="color">insert new data</h1>
+
+            <input id="firstName" type="text" class="form-control my-3 bg-transparent input"
+              placeholder="Enter your firstName">
+            <input id="lastName" type="text" class="form-control my-3 bg-transparent input"
+              placeholder="Enter your lastName">
+            <input id="age" type="number" class="form-control my-3 bg-transparent input" placeholder="Enter your age">
+            <button id="update" onclick="collectUpdateUserData()" class="btn btn-outline-info mx-0 my-3">
+              Update profile
+            </button>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="operations/userOperation.js"></script>
+  <script src="js/home.js"></script>
+</body>
+
+</html>
